@@ -1,0 +1,3 @@
+#pipenv 
+cohere 
+numpy 
