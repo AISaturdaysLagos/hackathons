@@ -1,6 +1,7 @@
 #AI6 Lagos: Cohere Hackathon
-## 
-Cohere allows you to implement language AI into your product. This repo contains some sample scripts from working with [cohere api](https://dashboard.cohere.ai/) for the following tasks: 
+
+![Header](cohere_hack.png)
+Cohere allows you to implement language AI into your product. This repo contains some sample scripts from working with [cohere's APIs](https://dashboard.cohere.ai/) for the following tasks: 
 - [Generate Promotion Post](https://dashboard.cohere.ai/playground/generate) - [script]()
 - [Customer Support](https://docs.cohere.com/reference/customer-support) - [script]() 
 - [Co.Summarize Tweet](https://docs.cohere.com/docs/summarize) - [script]()
