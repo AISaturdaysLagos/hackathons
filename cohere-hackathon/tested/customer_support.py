@@ -1,10 +1,17 @@
 # https://docs.cohere.com/reference/customer-support
+from cohere.responses.classify import Example
 import cohere
 from config import cohere_key
-co = cohere.Client(cohere_key) # This is your trial API key
+co = cohere.Client(cohere_key)  # This is your trial API key
 
-from cohere.responses.classify import Example
 
+"""
+Customer support tickets can come from all directions, and manually analyzing and routing information
+is an overwhelming job. A text classification system can help support teams accelerate this process.
+Here is an example of classifying customer emails to an insurance company into four categories:
+Finding policy details, Change account settings, Filing a claim and viewing status, and Cancelling coverage.
+
+"""
 examples = [
     Example("How do I find my insurance policy?", "Finding policy details"),
     Example("How do I download a copy of my insurance policy?",
@@ -42,7 +49,8 @@ examples = [
     Example("How do I delete my account?", "Cancelling coverage")
 ]
 
-inputs = ["I want to change my password", "Does my policy cover prescription medication?"]
+inputs = ["I want to change my password",
+          "Does my policy cover prescription medication?"]
 
 response = co.classify(
     model='large',
