@@ -12,6 +12,6 @@ Cohere allows you to implement language AI into your product. This repo contains
 
 
 ## Reference 
-- [Dummies Guide: Getting Started with Cohere]( https://twitter.com/MobilePunch/status/1654003871935545344)
+- [Dummies Guide: Getting Started with Cohere](https://docs.google.com/presentation/d/1pP7XtXB6UuUlTe7jiV2rU1DJjKAbWC1WDmCHuSM7pug/edit?usp=sharing)
 - [Cohere Python SDK Release 4.3.1](https://cohere-sdk.readthedocs.io/_/downloads/en/latest/pdf/)
 - [Cohere Notebook](https://github.com/cohere-ai/notebooks/tree/main/notebooks)
