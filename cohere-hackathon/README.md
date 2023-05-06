@@ -1,4 +1,4 @@
-#AI6 Lagos: 2023 Cohere Hackathon
+# AI6Lagos: 2023 Cohere Hackathon
 
 ![Header](cohere_hack.png)
 Cohere allows you to implement language AI into your product. This repo contains some sample scripts from working with [cohere's APIs](https://dashboard.cohere.ai/) for the following tasks:
